@@ -172,7 +172,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>908 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>789 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>456 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>123 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>1122 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <li><i class="fa fa-map-marker"></i>220 Copacabana Beach, Rio de Janeiro</li>
                             </ul>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>

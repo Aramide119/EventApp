@@ -109,7 +109,7 @@ https://www.tooplate.com/view/2125-artxibition
                         <h6>Opening on Thursday, March 31st</h6>
                         <h2>The Sunny Hill Festival 2022</h2>
                         <div class="main-white-button">
-                            <a href="ticket-details.html">Purchase Tickets</a>
+                            <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                         </div>
                     </div>
                 </div>
@@ -125,28 +125,28 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-lg-12">
                     <div class="owl-show-events owl-carousel">
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-01.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-01.jpg')}}" alt=""></a>
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-02.jpg')}}" alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-02.jpg')}}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-03.jpg')}}" alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-03.jpg')}}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-04.jpg')}}" alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-04.jpg')}}" alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-01.jpg')}}"  alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-01.jpg')}}"  alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-02.jpg')}}"  alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-02.jpg')}}"  alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-03.jpg')}}"  alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-03.jpg')}}"  alt=""></a> 
                         </div>
                         <div class="item">
-                            <a href="event-details.html"><img src="{{ asset('images/show-events-04.jpg')}}" alt=""></a> 
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/show-events-04.jpg')}}" alt=""></a> 
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ https://www.tooplate.com/view/2125-artxibition
                         <p>ArtXibition Event Template is brought to you by Tooplate website and it included total 7 HTML pages. 
                         These are <a href="index.html">Homepage</a>, <a href="about.html">About</a>, 
                         <a href="rent-venue.html">Rent a venue</a>, <a href="shows-events.html">shows &amp; events</a>, 
-                        <a href="event-details.html">event details</a>, <a href="tickets.html">tickets</a>, and <a href="ticket-details.html">ticket details</a>. 
+                        <a href="{{ url('/eventDetails') }}"">event details</a>, <a href="{{ url('/ticket') }}">tickets</a>, and <a href="{{ url('/ticketDetails') }}">ticket details</a>. 
                         You can feel free to modify any page as you like. If you have any question, please visit our <a href="https://www.tooplate.com/contact" target="_blank">Contact page</a>.</p>
                         <br>
                         <p>You can use this event template for your commercial or business website. You are not permitted to redistribute this template ZIP file on any template download website. If you need the latest HTML templates, you may visit <a href="https://www.toocss.com/" target="_blank">Too CSS</a> website that features a great collection of templates in different categories.</p>
@@ -175,7 +175,7 @@ https://www.tooplate.com/view/2125-artxibition
                     <div class="right-content">
                         <h5><i class="fa fa-map-marker"></i> Visit Us</h5>
                         <span>5 College St NW, <br>Norcross, GA 30071<br>United States</span>
-                        <div class="text-button"><a href="show-events-details.html">Need Directions? <i class="fa fa-arrow-right"></i></a></div>
+                        <div class="text-button"><a href="{{ url('/showEvent') }}"">Need Directions? <i class="fa fa-arrow-right"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@ https://www.tooplate.com/view/2125-artxibition
                         <div class="down-content">
                             <div class="left-content">
                                 <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                    <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                 </div>
                             </div>
                             <div class="right-content">
@@ -231,7 +231,7 @@ https://www.tooplate.com/view/2125-artxibition
                         <div class="down-content">
                             <div class="left-content">
                                 <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                    <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                 </div>
                             </div>
                             <div class="right-content">
@@ -256,7 +256,7 @@ https://www.tooplate.com/view/2125-artxibition
                         <div class="down-content">
                             <div class="left-content">
                                 <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                    <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                 </div>
                             </div>
                             <div class="right-content">
@@ -290,10 +290,10 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/event-01.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/event-01.jpg')}}" alt=""></a>
                         </div>
                         <div class="down-content">
-                            <a href="event-details.html"><h4>Radio City Musical Hall</h4></a>
+                            <a href="{{ url('/eventDetails') }}"><h4>Radio City Musical Hall</h4></a>
                             <ul>
                                 <li><i class="fa fa-clock-o"></i> Tuesday: 15:30-19:30</li>
                                 <li><i class="fa fa-map-marker"></i> Copacabana Beach, Rio de Janeiro</li>
@@ -304,7 +304,7 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/event-02.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/event-02.jpg')}}" alt=""></a>
                         </div>
                         <div class="down-content">
                             <a href="event-details.html"><h4>Madison Square Garden</h4></a>
@@ -318,10 +318,10 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-lg-4">
                     <div class="event-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/event-03.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/event-03.jpg')}}" alt=""></a>
                         </div>
                         <div class="down-content">
-                            <a href="event-details.html"><h4>Royce Hall</h4></a>
+                            <a href="{{ url('/eventDetails') }}"><h4>Royce Hall</h4></a>
                             <ul>
                                 <li><i class="fa fa-clock-o"></i> Thursday: 09:00-23:00</li>
                                 <li><i class="fa fa-map-marker"></i> Copacabana Beach, Rio de Janeiro</li>

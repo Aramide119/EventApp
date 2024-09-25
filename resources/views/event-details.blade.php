@@ -127,7 +127,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}"">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}"">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}"">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}"">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +232,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="main-dark-button">
-                                        <a href="ticket-details.html">Purchase Tickets</a>
+                                        <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                     </div>
                                 </div>
                             </div>

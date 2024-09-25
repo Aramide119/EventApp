@@ -118,7 +118,7 @@ https://www.tooplate.com/view/2125-artxibition
                                     </div>
                                     <div class="col-lg-4">
                                           <div class="main-dark-button">
-                                              <a href="ticket-details.html">Purchase Tickets</a>
+                                              <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                           </div>
                                     </div>
                                 </div>
@@ -132,9 +132,9 @@ https://www.tooplate.com/view/2125-artxibition
                                             <div class="right-content">
                                                 <h4>Madison Square Garden</h4>
                                                 <p>ArtXibition Event Template is brought to you by Tooplate website and it included total 7 HTML pages. 
-                        These are <a href="index.html">Homepage</a>, <a href="about.html">About</a>, 
-                        <a href="rent-venue.html">Rent a venue</a>, <a href="shows-events.html">shows &amp; events</a>, 
-                        <a href="event-details.html">event details</a>, <a href="tickets.html">tickets</a>, and <a href="ticket-details.html">ticket details</a>. 
+                        These are <a href="{{ url('/') }}">Homepage</a>, <a href="{{ url('/about') }}">About</a>, 
+                        <a href="{{ url('/rent') }}">Rent a venue</a>, <a href="{{ url('/showEvent') }}">shows &amp; events</a>, 
+                        <a href="{{ url('/eventDetails') }}">event details</a>, <a href="{{ url('/tickets') }}">tickets</a>, and <a href="{{ url('/ticketDetails') }}">ticket details</a>. 
                         You can feel free to modify any page as you like. If you have any question, please visit our <a href="https://www.tooplate.com/contact" target="_blank">Contact page</a>.
                         
                         <br><br>If you need the latest HTML templates, you may visit <a href="https://www.toocss.com/" target="_blank">Too CSS</a> website that features a great collection of templates in different categories.</p>
@@ -151,7 +151,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                 <h5>Any Question?</h5>
                                                 <p>Tumeric air affogato sare torial waistcoat denim stumber.</p>
                                             <div class="text-button">
-                                                <a href="ticket-details.html">Need Direction? <i class="fa fa-arrow-right"></i></a>
+                                                <a href="{{ url('/ticketDetails') }}">Need Direction? <i class="fa fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -175,7 +175,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                 <h5>Any Question?</h5>
                                                 <p>Tumeric air affogato sare torial waistcoat denim stumber.</p>
                                             <div class="text-button">
-                                                <a href="ticket-details.html">Need Direction? <i class="fa fa-arrow-right"></i></a>
+                                                <a href="{{ url('/ticketDetails') }}">Need Direction? <i class="fa fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                 <h5>Any Question?</h5>
                                                 <p>Tumeric air affogato sare torial waistcoat denim stumber.</p>
                                             <div class="text-button">
-                                                <a href="ticket-details.html">Need Direction? <i class="fa fa-arrow-right"></i></a>
+                                                <a href="{{ url('/ticketDetails') }}">Need Direction? <i class="fa fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>

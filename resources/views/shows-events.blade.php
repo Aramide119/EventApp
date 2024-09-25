@@ -117,7 +117,7 @@ https://www.tooplate.com/view/2125-artxibition
                                     </div>
                                     <div class="col-lg-4">
                                           <div class="main-dark-button">
-                                              <a href="ticket-details.html">Purchase Tickets</a>
+                                              <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                                           </div>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Tiger Land Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -216,7 +216,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Super Rock Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -252,7 +252,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Rocky Hill Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -288,7 +288,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Hip Hop Special</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -387,7 +387,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Water Splash Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -423,7 +423,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Sunny Hill Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -459,7 +459,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>New Rock Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">
@@ -495,7 +495,7 @@ https://www.tooplate.com/view/2125-artxibition
                                                                 <div class="left-content">
                                                                     <h4>Monkey Dance Festival</h4>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur do adipiscing eliterirt sed eiusmod alori...</p>
-                                                                    <div class="main-dark-button"><a href="event-details.html">Discover More</a></div>
+                                                                    <div class="main-dark-button"><a href="{{ url('/eventDetails') }}">Discover More</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-4">

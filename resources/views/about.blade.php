@@ -121,7 +121,7 @@ https://www.tooplate.com/view/2125-artxibition
                             </ul>
                             <span><i class="fa fa-ticket"></i> Tickets Starting From $34.00</span>
                             <div class="main-dark-button">
-                                <a href="ticket-details.html">Purchase Tickets</a>
+                                <a href="{{ url('/ticketDetails') }}">Purchase Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ https://www.tooplate.com/view/2125-artxibition
                     <p><p>ArtXibition Event Template is brought to you by Tooplate website and it included total 7 HTML pages. 
                         These are <a href="index.html">Homepage</a>, <a href="about.html">About</a>, 
                         <a href="rent-venue.html">Rent a venue</a>, <a href="shows-events.html">shows &amp; events</a>, 
-                        <a href="event-details.html">event details</a>, <a href="tickets.html">tickets</a>, and <a href="ticket-details.html">ticket details</a>. 
+                        <a href="{{ url('/eventDetails') }}">event details</a>, <a href="tickets.html">tickets</a>, and <a href="{{ url('/ticketDetails') }}">ticket details</a>. 
                         You can feel free to modify any page as you like. If you have any question, please visit our <a href="https://www.tooplate.com/contact" target="_blank">Contact page</a>.</p></p>
                     <h4>Items That Are Restricted</h4>
                     <ul>
@@ -152,7 +152,7 @@ https://www.tooplate.com/view/2125-artxibition
                         affogato sartorial waistcoat ugh raw denim stumptown.
                         </p>
                     <div class="text-button">
-                        <a href="event-details.html">Need Directions? <i class="fa fa-arrow-right"></i></a>
+                        <a href="{{ url('/eventDetails') }}">Need Directions? <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -163,7 +163,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <h5>Copacabana Festival</h5>
                                 <span>Sep 24 Fri<br>08:30 AM - 11:00 PM</span>
                                 <div class="icon-button">
-                                    <a href="ticket-details.html">
+                                    <a href="{{ url('/ticketDetails') }}">
                                         <i class="fa fa-shopping-cart"></i>
                                     </a>
                                 </div>
@@ -172,7 +172,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <h5>Rock Music Festival</h5>
                                 <span>Sep 22 Wed<br>11:00 AM - 09:00 PM</span>
                                 <div class="icon-button">
-                                    <a href="ticket-details.html">
+                                    <a href="{{ url('/ticketDetails') }}">
                                         <i class="fa fa-shopping-cart"></i>
                                     </a>
                                 </div>
@@ -181,7 +181,7 @@ https://www.tooplate.com/view/2125-artxibition
                                 <h5>Water Splash Festival</h5>
                                 <span>July 18 Friday<br>10:00 AM - 11:00 PM</span>
                                 <div class="icon-button">
-                                    <a href="ticket-details.html">
+                                    <a href="{{ url('/ticketDetails') }}">
                                         <i class="fa fa-shopping-cart"></i>
                                     </a>
                                 </div>
@@ -202,51 +202,51 @@ https://www.tooplate.com/view/2125-artxibition
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/like-01.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}"><img src="{{ asset('images/like-01.jpg')}}" alt=""></a>
                             <div class="icons">
                                 <ul>
-                                    <li><a href="event-details.html"><i class="fa fa-arrow-right"></i></a></li>
-                                    <li><a href="ticket-details.html"><i class="fa fa-ticket"></i></a></li>
+                                    <li><a href="{{ url('/eventDetails') }}""><i class="fa fa-arrow-right"></i></a></li>
+                                    <li><a href="{{ url('/tickettDetails') }}""><i class="fa fa-ticket"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="down-content">
                             <span>Sept 10 to 14, 2021</span>
-                            <a href="event-details.html"><h4>Wonder Land Music and Arts Festival</h4></a>
+                            <a href="{{ url('/eventDetails') }}""><h4>Wonder Land Music and Arts Festival</h4></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/like-02.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}""><img src="{{ asset('images/like-02.jpg')}}" alt=""></a>
                             <div class="icons">
                                 <ul>
-                                    <li><a href="event-details.html"><i class="fa fa-arrow-right"></i></a></li>
-                                    <li><a href="ticket-details.html"><i class="fa fa-ticket"></i></a></li>
+                                    <li><a href="{{ url('/eventDetails') }}""><i class="fa fa-arrow-right"></i></a></li>
+                                    <li><a href="{{ url('/tickettDetails') }}""><i class="fa fa-ticket"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="down-content">
                             <span>Oct 11 to 16, 2021</span>
-                            <a href="event-details.html"><h4>Big Water Splashing Festival</h4></a>
+                            <a href="{{ url('/eventDetails') }}""><h4>Big Water Splashing Festival</h4></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                            <a href="event-details.html"><img src="{{ asset('images/like-03.jpg')}}" alt=""></a>
+                            <a href="{{ url('/eventDetails') }}""><img src="{{ asset('images/like-03.jpg')}}" alt=""></a>
                             <div class="icons">
                                 <ul>
-                                    <li><a href="event-details.html"><i class="fa fa-arrow-right"></i></a></li>
-                                    <li><a href="ticket-details.html"><i class="fa fa-ticket"></i></a></li>
+                                    <li><a href="{{ url('/eventDetails') }}""><i class="fa fa-arrow-right"></i></a></li>
+                                    <li><a href="{{ url('/ticketDetails') }}""><i class="fa fa-ticket"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="down-content">
                             <span>Nov 10 to 18, 2021</span>
-                            <a href="event-details.html"><h4>Tiger Dance Hip Hop Festival</h4></a>
+                            <a href="{{ url('/eventDetails') }}"><h4>Tiger Dance Hip Hop Festival</h4></a>
                         </div>
                     </div>
                 </div>
